@@ -1,25 +1,33 @@
 {
-  "name": "badgeboard",
-  "description": "",
-  "private": true,
-  "version": "1.0.0",
-  "author": {
-    "name": "Jonathan Ong",
-    "email": "me@jongleberry.com",
-    "url": "http://jongleberry.com",
-    "twitter": "https://twitter.com/jongleberry"
+  "name": "minimal-mistakes",
+  "version": "3.4.2",
+  "description": "Minimal Mistakes Jekyll theme npm build scripts",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mmistakes/minimal-mistakes.git"
   },
+  "keywords": [
+    "jekyll",
+    "theme",
+    "minimal"
+  ],
+  "author": "Michael Rose",
   "license": "MIT",
-  "repository": "repo-utils/badgeboard",
+  "bugs": {
+    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
+  },
+  "homepage": "https://mmistakes.github.io/minimal-mistakes/",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
   "devDependencies": {
-    "co": "4",
-    "gnode": "0.1.2",
-    "jade": "1",
-    "js-yaml": "3",
-    "request": "2"
+    "npm-run-all": "^1.7.0",
+    "onchange": "^2.2.0",
+    "uglify-js": "^2.6.1"
   },
   "scripts": {
-    "build": "node scripts/build.js",
-    "build-db": "gnode scripts/make-db.js"
+    "uglify": "uglifyjs assets/js/vendor/jquery/jquery-1.12.4.min.js assets/js/plugins/jquery.fitvids.js assets/js/plugins/jquery.greedy-navigation.js assets/js/plugins/jquery.magnific-popup.js assets/js/plugins/jquery.smooth-scroll.min.js assets/js/plugins/stickyfill.min.js assets/js/_main.js -c -m -o assets/js/main.min.js",
+    "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
+    "build:js": "npm run uglify"
   }
 }
