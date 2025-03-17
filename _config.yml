@@ -21,4 +21,8 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "page" 
+      layout: "page"
+
+# Plugins
+plugins:
+  - jekyll-redirect-from 
