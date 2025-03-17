@@ -1,7 +1,7 @@
 # Site settings
 title: Jay Rodge
 email: your-email@example.com
-description: "Developer Advocate at NVIDIA"
+description: "Staff Developer Advocate for LLMs at NVIDIA"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://jayrodge.github.io" # the base hostname & protocol for your site
 twitter_username: jayrodge
