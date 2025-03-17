@@ -120,3 +120,39 @@ Style improvements and bug fixes are especially welcome.
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+# Jay Rodge's Personal Website
+
+This is the repository for Jay Rodge's personal website, showcasing his work as a Developer Advocate at NVIDIA.
+
+## Website Structure
+
+The website is built with a modern, responsive design and includes the following sections:
+
+- **Home**: Introduction and quick bio
+- **Blogs**: Technical blog posts on various topics
+- **FAQs**: Answers to common questions about Jay's journey
+- **Talks**: Slides from talks Jay has given
+- **Projects**: Showcase of projects Jay has worked on
+- **YouTube**: Embedded YouTube playlist
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- Font Awesome for icons
+- Google Fonts (Roboto)
+
+## Development
+
+The website is hosted on GitHub Pages. To make changes:
+
+1. Clone the repository
+2. Make your changes
+3. Commit and push to the master branch
+4. GitHub Pages will automatically deploy the changes
+
+## Contact
+
+For any questions or suggestions, please contact Jay at jayrodge@example.com or through his social media profiles linked on the website.
