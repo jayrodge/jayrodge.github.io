@@ -1,158 +1,160 @@
-# al-folio
-
-[![build status](https://travis-ci.org/alshedivat/al-folio.svg?branch=master)](https://travis-ci.org/alshedivat/al-folio)
-[![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/alshedivat/al-folio/blob/master/LICENSE)
-[![gitter](https://badges.gitter.im/alshedivat/al-folio.svg)](https://gitter.im/alshedivat/al-folio?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-
-A simple and clean [Jekyll](https://jekyllrb.com/) theme for academics.
-
-[![Screenshot](assets/img/full-screenshot.png)](https://alshedivat.github.io/al-folio/)
-
-Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](http://liabogoev.com) and under the MIT license).
-Since then, it got a full re-write of the styles and many additional cool features.
-The emphasis is on whitespace, transparency, and academic usage: [theme demo](https://alshedivat.github.io/al-folio/).
-
-## Getting started
-
-For more about how to use Jekyll, check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
-Why Jekyll? Read this [blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)!
-
-### Installation
-
-Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first fork the theme from `github.com:alshedivat/al-folio` to `github.com:<your-username>/<your-repo-name>` and do the following:
-
-```bash
-$ git clone git@github.com:<your-username>/<your-repo-name>.git
-$ cd <your-repo-name>
-$ bundle install
-$ bundle exec jekyll serve
-```
-
-Now, feel free to customize the theme however you like (don't forget to change the name!).
-After you are done, **commit** your final changes.
-Now, you can deploy your website to [GitHub Pages](https://pages.github.com/) by running the deploy script:
-
-```bash
-$ ./bin/deploy [--user]
-```
-By default, the script uses the `master` branch for the source code and deploys the webpage to `gh-pages`.
-The optional flag `--user` tells it to deploy to `master` and use `source` for the source code instead.
-Using `master` for deployment is a convention for [user and organization pages](https://help.github.com/articles/user-organization-and-project-pages/).
-
-**Note:** when deploying your user or organization page, make sure the `_config.yml` has `url` and `baseurl` fields as follows.
-
-```
-url: # should be empty
-baseurl:  # should be empty
-```
-
-### Usage
-
-Note that `_pages/about.md` is built to index.html in the published site. There is therefore no need to have a separate index page for the project. If an index page does exist in the root directory then this will prevent `_pages/about.md` from being added to the built site.
-
-## Features
-
-#### Ergonomic Publications
-
-Your publications page is generated automatically from your BibTex bibliography.
-Simply edit `_bibliography/papers.bib`.
-You can also add new `*.bib` files and customize the look of your publications however you like by editing `_pages/publications.md`.
-
-Keep meta-information about your co-authors in `_data/coauthors.yml` and Jekyll will insert links to their webpages automatically.
-
-#### Collections
-This Jekyll theme implements collections to let you break up your work into categories.
-The example is divided into news and projects, but easily revamp this into apps, short stories, courses, or whatever your creative work is.
-
-> To do this, edit the collections in the `_config.yml` file, create a corresponding folder, and create a landing page for your collection, similar to `_pages/projects.md`.
-
-Two different layouts are included: the blog layout, for a list of detailed descriptive list of entries, and the projects layout.
-The projects layout overlays a descriptive hoverover on a background image.
-If no image is provided, the square is auto-filled with the chosen theme color.
-Thumbnail sizing is not necessary, as the grid crops images perfectly.
-
-#### Theming
-Six beautiful theme colors have been selected to choose from.
-The default is purple, but quickly change it by editing `$theme-color` variable in the `_sass/variables.scss` file (line 72).
-Other color variables are listed there, as well.
-
-#### Photos
-Photo formatting is made simple using rows of a 3-column system.
-Make photos 1/3, 2/3, or full width.
-Easily create beautiful grids within your blog posts and projects pages:
-
-<p align="center">
-  <a href="https://alshedivat.github.io/al-folio/projects/1_project/">
-    <img src="assets/img/photos-screenshot.png" width="75%">
-  </a>
-</p>
-
-#### Code Highlighting
-This theme implements Jekyll's built in code syntax highlighting with Pygments.
-Just use the liquid tags `{% highlight python %}` and `{% endhighlight %}` to delineate your code:
-
-<p align="center">
-  <a href="https://alshedivat.github.io/al-folio/blog/2015/code/">
-    <img src="assets/img/code-screenshot.png" width="75%">
-  </a>
-</p>
-
-#### Social media previews
-The al-folio theme optionally supports preview images on social media.
-To enable this functionality you will need to set `serve_og_meta` to `true` in
-your `_config.yml`. Once you have done so, all your site's pages will include
-Open Graph data in the HTML head element.
-
-You will then need to configure what image to display in your site's social
-media previews. This can be configured on a per-page basis, by setting the
-`og_image` page variable. If for an individual page this variable is not set,
-then the theme will fall back to a site-wide `og_image` variable, configurable
-in your `_config.yml`. In both the page-specific and site-wide cases, the
-`og_image` variable needs to hold the URL for the image you wish to display in
-social media previews.
-
-## Contributing
-
-Feel free to contribute new features and theme improvements by sending a pull request.
-Style improvements and bug fixes are especially welcome.
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
 # Jay Rodge's Personal Website
 
-This is the repository for Jay Rodge's personal website, showcasing his work as a Developer Advocate at NVIDIA.
+[![Website](https://img.shields.io/badge/website-live-brightgreen.svg)](https://jayrodge.github.io)
+[![GitHub Pages](https://img.shields.io/badge/deployed%20with-GitHub%20Pages-blue.svg)](https://pages.github.com/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-## Website Structure
+Welcome to the repository for **Jay Rodge's personal website** - a modern, responsive portfolio showcasing his work as a Senior Developer Advocate at NVIDIA, specializing in Large Language Models (LLMs).
 
-The website is built with a modern, responsive design and includes the following sections:
+## 🌟 Live Website
 
-- **Home**: Introduction and quick bio
-- **Blogs**: Technical blog posts on various topics
-- **FAQs**: Answers to common questions about Jay's journey
-- **Talks**: Slides from talks Jay has given
-- **Projects**: Showcase of projects Jay has worked on
-- **YouTube**: Embedded YouTube playlist
+Visit the live website at: **[jayrodge.github.io](https://jayrodge.github.io)**
 
-## Technologies Used
+## 👨‍💻 About Jay
 
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- Font Awesome for icons
-- Google Fonts (Roboto)
+Jay Rodge is a **Senior Developer Advocate (IC4) - Large Language Models** at NVIDIA, where he demonstrates how developers can leverage GPU acceleration in their LLM processes. He helps the developer community understand and implement cutting-edge AI technologies using widely-adopted tools and frameworks.
 
-## Development
+### Professional Journey
+- **Current Role**: Senior Developer Advocate - LLMs at NVIDIA
+- **Education**: Master's in Computer Science from Illinois Tech, Chicago
+- **Previous Experience**: 
+  - Product Marketing Manager for Data Science & Deep Learning at NVIDIA
+  - AI Research Intern at BMW Group
+  - Machine Learning Fellow at [fellowship.ai](https://fellowship.ai)
 
-The website is hosted on GitHub Pages. To make changes:
+## 🚀 Website Features
 
-1. Clone the repository
-2. Make your changes
-3. Commit and push to the master branch
-4. GitHub Pages will automatically deploy the changes
+### Modern Design & User Experience
+- **🌙 Dark Mode Toggle**: Seamless switching between light and dark themes
+- **📱 Fully Responsive**: Optimized for all devices and screen sizes
+- **⚡ Fast Loading**: Optimized performance with modern web standards
+- **♿ Accessible**: Built with accessibility best practices
 
-## Contact
+### Content Sections
+- **🏠 Home**: Professional introduction and career overview
+- **📝 Blog**: Technical articles and insights (redirects to Medium)
+- **❓ FAQs**: Comprehensive Q&A covering:
+  - MS in the US journey and advice
+  - Breaking into Data Science/AI
+  - Career growth and branding
+  - Developer advocacy and public speaking
+  - AI tools and productivity
+  - Current market insights
+- **🎤 Talks**: Speaking engagements and presentations
+- **💼 Projects**: Showcase of technical projects
+- **📺 YouTube**: Video content and tutorials
+- **📚 Publications**: Research papers and articles
 
-For any questions or suggestions, please contact Jay at jayrodge@example.com or through his social media profiles linked on the website.
+## 🛠️ Technical Stack
+
+### Core Technologies
+- **HTML5** - Semantic markup
+- **CSS3** - Modern styling with CSS variables
+- **JavaScript (ES6+)** - Interactive functionality
+- **Jekyll** - Static site generator
+
+### Design & Icons
+- **Font Awesome 6.0** - Professional iconography
+- **Google Fonts (Roboto)** - Clean, readable typography
+- **CSS Grid & Flexbox** - Modern layout techniques
+
+### Features
+- **CSS Variables** - Dynamic theming system
+- **Local Storage** - Theme preference persistence
+- **Smooth Transitions** - Enhanced user experience
+- **SEO Optimized** - Search engine friendly
+
+## 🚀 Getting Started
+
+### Prerequisites
+- [Ruby](https://www.ruby-lang.org/en/downloads/) (2.7+)
+- [Bundler](https://bundler.io/)
+- [Git](https://git-scm.com/)
+
+### Local Development
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/jayrodge/jayrodge.github.io.git
+   cd jayrodge.github.io
+   ```
+
+2. **Install dependencies**
+   ```bash
+   bundle install
+   ```
+
+3. **Start the development server**
+   ```bash
+   bundle exec jekyll serve
+   ```
+
+4. **Open your browser**
+   Navigate to `http://localhost:4000`
+
+### Deployment
+
+The website automatically deploys to GitHub Pages when changes are pushed to the `master` branch.
+
+```bash
+# Make your changes
+git add .
+git commit -m "Your commit message"
+git push origin master
+```
+
+## 📁 Project Structure
+
+```
+jayrodge.github.io/
+├── _pages/           # Content pages
+│   ├── faqs.md      # FAQ content
+│   ├── blogs.md     # Blog redirect
+│   └── ...
+├── assets/          # Static assets
+│   ├── css/         # Stylesheets
+│   ├── img/         # Images
+│   └── js/          # JavaScript files
+├── index.html       # Homepage
+├── _config.yml      # Jekyll configuration
+└── README.md        # This file
+```
+
+## 🎨 Customization
+
+### Dark Mode
+The website includes a built-in dark mode toggle that:
+- Persists user preference in localStorage
+- Smoothly transitions between themes
+- Uses CSS variables for easy customization
+
+### Adding Content
+- **FAQ Updates**: Edit `_pages/faqs.md`
+- **New Pages**: Add markdown files to `_pages/`
+- **Styling**: Modify CSS variables in `index.html`
+
+## 🤝 Contributing
+
+Contributions are welcome! If you find any issues or have suggestions:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📞 Contact & Social
+
+- **Email**: [jayrodge@live.com](mailto:jayrodge@live.com)
+- **LinkedIn**: [jayrodge](https://www.linkedin.com/in/jayrodge/)
+- **Twitter**: [@jayrodge15](https://twitter.com/jayrodge15)
+- **GitHub**: [jayrodge](https://github.com/jayrodge)
+- **Medium**: [@jayrodge](https://medium.com/@jayrodge/)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+**Built with ❤️ by Jay Rodge** | *Last updated: March 2025*
