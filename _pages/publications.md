@@ -30,6 +30,31 @@ I regularly write technical blog posts on the [NVIDIA Developer Blog](https://de
 
 ---
 
+## 💼 LinkedIn Articles
+
+I also share insights and technical content on LinkedIn, covering topics in AI, data science, and career development.
+
+### Recent LinkedIn Articles:
+
+**Key Takeaways from Google Cloud Next 2025 on Building LLM Apps**  
+*3 min read* | [Read on LinkedIn](https://www.linkedin.com/pulse/key-takeaways-from-google-cloud-next-2025-building-llm-jay-rodge-8z0wc?trackingId=aVh1m3GZSXKIfT0eMR34RQ%3D%3D) ↗
+
+**Scaling AI Reasoning: Key GTC 2025 Announcements for LLM Developers**  
+*by Jay Rodge - 3 min read* | [Read on LinkedIn](https://www.linkedin.com/pulse/scaling-ai-reasoning-key-gtc-2025-announcements-llm-developers-rodge-yaqwc?trackingId=aVh1m3GZSXKIfT0eMR34RQ%3D%3D) ↗
+
+**Deploy High-Performance Models at Scale With TensorRT and Triton Inference Server**  
+*by Jay Rodge - 3 min read* | [Read on LinkedIn](https://www.linkedin.com/pulse/deploy-high-performance-models-scale-tensorrt-triton-inference-rodge?trackingId=aVh1m3GZSXKIfT0eMR34RQ%3D%3D) ↗
+
+**"Wherever you go, go with all your heart." - Confucius**  
+*by Jay Rodge - 5 min read* | [Read on LinkedIn](https://www.linkedin.com/pulse/wherever-you-go-all-your-heart-confucius-jay-rodge?trackingId=aVh1m3GZSXKIfT0eMR34RQ%3D%3D) ↗
+
+**Job Search during Pandemic: Ways you can tackle it**  
+*by Jay Rodge - 6 min read* | [Read on LinkedIn](https://www.linkedin.com/pulse/job-search-during-pandemic-ways-you-can-tackle-jay-rodge?trackingId=aVh1m3GZSXKIfT0eMR34RQ%3D%3D) ↗
+
+**📖 View all my LinkedIn articles**: [LinkedIn Articles](https://www.linkedin.com/in/jayrodge/recent-activity/articles/) ↗
+
+---
+
 ## 📚 Academic Publications
 
 For my academic research publications, visit my [Google Scholar profile](https://scholar.google.com/citations?user=HSH8HjgAAAAJ&hl=en) ↗.
