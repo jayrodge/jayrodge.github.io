@@ -7,23 +7,23 @@ description: Answers to common questions about my journey.
 
 # MS in the US (Your Journey + Advice)
 
-#### Q1. Why did you decide to do an MS in the US?
+### Q1. Why did you decide to do an MS in the US?
 
 I grew up reading and following about technological advancements in India, and after learning about stories of Apple, Google, and other tech companies I made a promise to myself that I'll be working in Silicon Valley someday and MS was a stepping stone in that journey.
 
-#### Q2. Do I need a perfect GRE or TOEFL score to get admitted?
+### Q2. Do I need a perfect GRE or TOEFL score to get admitted?
 
 No. My scores weren't perfect in fact I didn't got 0 admits and thankfully Illinois Tech was on india tour and offered me an on the spot admit for Masters in Computer Science program, but I think what mattered more was practical experience and clarity of goals. A strong profile is a combination of decent scores, impactful projects, internships, and solid recommendations.
 
-#### Q3. How did you fund your MS?
+### Q3. How did you fund your MS?
 
 Mostly through the student loan. I didn't push myself to find on-campus jobs, instead I used that time to network in Chicago attending meetups Monday-Friday every evening learning about how companies are using AI and Data Science and getting to pick the brains of the people in the industry. Most people don't realize universities offer teaching/research assistant roles that significantly reduce tuition and provide stipends.
 
-#### Q4. Should I go for a high-ranked university or one with better funding?
+### Q4. Should I go for a high-ranked university or one with better funding?
 
 Depends on your priorities. Brand helps in the long run, but assistantships and a supportive program matter too. I personally focused on the location of the University.
 
-#### Q5. How different is studying in the US vs. India?
+### Q5. How different is studying in the US vs. India?
 
 It's more project-driven, discussion-heavy, and flexible. Professors expect you to be independent and proactive. You learn as much outside class—through networking and internships—as inside.
 
