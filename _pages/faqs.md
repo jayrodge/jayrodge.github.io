@@ -5,7 +5,7 @@ permalink: /faqs/
 description: Answers to common questions about my journey.
 ---
 
-# MS in the US (Your Journey + Advice)
+## MS in the US (Your Journey + Advice)
 
 ### Q1. Why did you decide to do an MS in the US?
 
@@ -29,7 +29,7 @@ It's more project-driven, discussion-heavy, and flexible. Professors expect you 
 
 ---
 
-# 📊 Breaking into Data Science / AI
+## 📊 Breaking into Data Science / AI
 
 ### Q6. Do I need a PhD to work in Data Science/AI?
 
@@ -53,7 +53,7 @@ Nice-to-have, not mandatory. In my case, practical experience and industry proje
 
 ---
 
-# 🏢 Career Growth & Branding
+## 🏢 Career Growth & Branding
 
 ### Q11. How did you land your role at NVIDIA?
 
@@ -77,7 +77,7 @@ Yes. People don't just hire skillsets, they hire visibility and trust. Branding 
 
 ---
 
-# 🎤 Developer Advocacy / Public Speaking
+## 🎤 Developer Advocacy / Public Speaking
 
 ### Q16. What is Developer Advocacy?
 
@@ -101,7 +101,7 @@ Start before you have the title. Write tutorials, speak at meetups, contribute t
 
 ---
 
-# 🔄 Staying Current & Tools
+## 🔄 Staying Current & Tools
 
 ### Q21. How do you stay up-to-date with current trends?
 
@@ -113,23 +113,34 @@ This is my first full-time job, so I can't compare but it's absolutely amazing t
 
 ### Q23. What AI tools do I use daily?
 
-Cursor/Gemini CLI for coding, Perplexity Comet for browser, ChatGPT for writing, Gemini for all things AI, Tesla FSD for driving, Adobe premier pro for video editing, Voice memos to record talks at meetups/conferences (voice recording -> transcript -> LLM summarization), NotebookLM for understanding YouTube lectures/technical videos and long form blogs, Gemini Deep Research for understanding a trend, Sesame voice preview app/ChatGPT advanced voice for brainstorming through voice chats.
+Here are the AI tools I use daily:
 
-Apart from this I constantly try out all the new tools to see what sticks and use it. For example, I'm currently experimenting with Alibaba's Qoder, and LMStudio desktop app to run LLMs locally.
+- **Coding:** Cursor and Gemini CLI
+- **Browsing:** Perplexity Comet
+- **Writing:** ChatGPT
+- **General AI tasks:** Gemini
+- **Driving:** Tesla FSD
+- **Video editing:** Adobe Premiere Pro
+- **Recording talks:** Voice Memos (I record talks at meetups/conferences, transcribe them, and use LLMs to summarize)
+- **Learning from videos/blogs:** NotebookLM (great for understanding YouTube lectures, technical videos, and long-form blogs)
+- **Research:** Gemini Deep Research (for understanding trends)
+- **Voice brainstorming:** Sesame Voice Preview app and ChatGPT Advanced Voice (for brainstorming via voice chats)
 
-I also often use Gemini Live with Camera to point and ask questions or to get her fix a thing. ElevenLabs to generate audiobook of the digital books.
+I’m always experimenting with new tools to see what works best. For example, I’m currently trying out Alibaba’s Qoder and the LMStudio desktop app to run LLMs locally.
+
+I also frequently use Gemini Live with Camera to point at things and ask questions or get help fixing something. For audiobooks, I use ElevenLabs to generate audio versions of digital books.
 
 ### Q24. What do you do for productivity and how do you avoid procrastination?
 
-I still go through it but having mind shift helps about why I'm trying to procrastinate? Most of the times, starting small helps a lot, and once you start you get the momentum eventually to make significant progress. I have using Focusmate.com for last 6 years, and it helps me get started by getting an on-demand accountability partner.
+I still struggle with procrastination sometimes, but shifting my mindset and asking myself why I'm procrastinating helps. Usually, starting with a small task makes it much easier to build momentum and make real progress. For the past six years, I’ve used Focusmate.com, which pairs me with an accountability partner on demand—this has been a huge help in getting started and staying productive.
 
 ---
 
-# 🌍 Current Market & Advice
+## 🌍 Current Market & Advice
 
 ### Q25. Do you recommend coming to US right now?
 
-I don't, it's really bad in terms of job market, and with AI tools becoming more mainstream, experienced professionals are much more in advantage with these Ai tools than early career grads. It might be a huge risk if you still plan to come to US.
+I don't, it's really bad in terms of job market, and with AI tools becoming more mainstream, experienced professionals are much more in advantage with these AI tools than early career grads. It might be a huge risk if you still plan to come to US.
 
 ### Q26. What would you have done if you were in this job market?
 

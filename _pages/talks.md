@@ -5,9 +5,7 @@ permalink: /talks/
 description: Slides from talks I've given.
 ---
 
-## Introduction to GPU Programming
-*February 20, 2025*
+> **🚧 Work in Progress** - This page is currently under construction. In the meantime, you can watch my talks on [YouTube](https://www.youtube.com/playlist?list=PLPNuwOxILZlLE3A5Tm-YE3D2z2CI2fvov) ↗
 
-[View Slides](https://slideshare.net/jayrodge/gpu-programming-talk)
 
 <!-- More talks can be added here --> 
