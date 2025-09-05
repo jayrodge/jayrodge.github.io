@@ -138,7 +138,27 @@
     
     /* Mobile menu icon color */
     .nav-trigger + label .menu-icon svg path {
-      fill: var(--text-color);
+      fill: var(--text-color) !important;
+    }
+    
+    /* Mobile menu styling */
+    .site-nav .trigger {
+      background-color: var(--header-bg) !important;
+      border: 1px solid var(--border-color) !important;
+    }
+    
+    .site-nav .trigger .page-link {
+      color: var(--text-color) !important;
+    }
+    
+    .site-nav .trigger .page-link:hover {
+      color: var(--link-hover-color) !important;
+      background-color: var(--border-color) !important;
+    }
+    
+    /* Mobile menu toggle button */
+    .nav-trigger + label {
+      color: var(--text-color) !important;
     }
     
     /* External link indicators */

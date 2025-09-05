@@ -152,7 +152,27 @@
     
     /* Mobile menu icon color */
     .nav-trigger + label .menu-icon svg path {
-      fill: var(--text-color);
+      fill: var(--text-color) !important;
+    }
+    
+    /* Mobile menu styling */
+    .site-nav .trigger {
+      background-color: var(--header-bg) !important;
+      border: 1px solid var(--border-color) !important;
+    }
+    
+    .site-nav .trigger .page-link {
+      color: var(--text-color) !important;
+    }
+    
+    .site-nav .trigger .page-link:hover {
+      color: var(--link-hover-color) !important;
+      background-color: var(--border-color) !important;
+    }
+    
+    /* Mobile menu toggle button */
+    .nav-trigger + label {
+      color: var(--text-color) !important;
     }
     
     /* External link indicators */
@@ -314,11 +334,11 @@
           <i class="fas fa-moon" id="dark-mode-icon"></i>
         </button>
 
-        <!-- About -->
+        <!-- Home -->
         <a class="page-link" href="/">home</a>
 
-        <!-- Blog -->
-        <a class="page-link" href="https://medium.com/@jayrodge/" target="_blank" rel="noopener noreferrer">blog</a>
+        <!-- Publications -->
+        <a class="page-link" href="/publications/">blogs</a>
 
         <!-- Pages -->
 
@@ -329,13 +349,10 @@
         <a class="page-link" href="/talks/">talks</a>
 
         <!-- Projects -->
-        <a class="page-link" href="/projects/">projects</a>
+        <a class="page-link" href="https://github.com/NVIDIA/GenerativeAIExamples/commits?author=jayrodge" target="_blank" rel="noopener noreferrer">projects</a>
 
         <!-- YouTube -->
         <a class="page-link" href="https://www.youtube.com/playlist?list=PLPNuwOxILZlLE3A5Tm-YE3D2z2CI2fvov">youtube</a>
-        
-        <!-- Publications -->
-        <a class="page-link" href="/publications/">publications</a>
 
         <!-- CV link -->
         <!-- <a class="page-link" href="/assets/pdf/CV.pdf">vitae</a> -->
